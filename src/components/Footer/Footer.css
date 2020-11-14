@@ -1,0 +1,123 @@
+.footer-container {
+    width: 60%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.footerBackground {
+    background-color: #1c2237;
+    margin-top: -0.1rem;
+}
+
+.footer-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-heading > p:first-child {
+    font-size: 1.3rem;
+    font-weight: 200;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.footer-heading > p:nth-child(2) {
+    font-size: 1.1rem;
+    font-weight: lighter;
+}
+
+.footer-heading > * {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    color: #ffffff;
+}
+
+.input {
+    border: 1px solid #000;
+    border-radius: 1%;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding: 0.6rem 0.6rem 0.6rem 1.2rem;
+    text-align: left;
+    outline: none;
+}
+
+.input-div {
+    margin-right: 1rem;
+}
+
+.form-div {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+
+.footer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: -3rem;
+    margin-top: 2rem;
+}
+
+.footer-boxes {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem 2.4rem;
+}
+
+.footer-boxes > * {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer-boxes > *:not(h2) {
+    padding: 0.2rem;
+}
+
+.footer-boxes > *:not(h2):hover {
+    transform: scale(1.02);
+    transition: all 0.2s ease-out;
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 1rem;
+    margin-top: 5rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.footer-boxes > h2 {
+    font-weight: lighter;
+    margin: 1rem 0;
+}
+
+.footer-boxes > a {
+    font-weight: lighter;
+    margin: 0.1rem;
+}
+
+@media screen and (max-width : 960px) {
+
+    .footer-boxes > a {
+       display: none;
+    }
+
+    .footer-boxes {
+        margin: 0;
+    }
+
+    .footer-wrapper {
+        flex-direction: column;
+    }
+
+}

@@ -1,0 +1,206 @@
+.container {
+    width: 50vw;
+    height: 100%;
+}
+
+.content-section {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.headline {
+    color: #f00946;
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    margin-bottom: -1rem;
+}
+
+.heading {
+    margin-bottom: 24px;
+    font-size: 2.4rem;
+    line-height: 1.1;
+    font-weight: 600;
+    color: #f7f8fa;
+}
+
+.img {
+    max-width: 100%;
+    width: 30vw;
+    height: 37vh;
+    display: inline-block;
+    z-index: 1;
+    margin-left: -5rem;
+    flex: 2.5;
+    float: right;
+    margin-top: -1rem;
+}
+
+.top-section {
+    height: 100vh;
+    margin-bottom: -2rem;
+}
+
+.info-text {
+    color: #ffffff;
+    max-width: 440px;
+    margin-bottom: 35px;
+    font-size: 1rem;
+    line-height: 24px;
+}
+
+.col {
+    margin: 2rem 2rem 2rem 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80vw;
+}
+
+.reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+
+.side-content {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 3rem;
+    max-width: 50%;
+}
+
+.reversed-side-content {
+    margin-left: 1rem;
+}
+
+/* Conditional classes */
+.light {
+    color: #ffffff;
+}
+
+.dark {
+    color: #1c2237;
+}
+
+.darkBackground {
+    background-color: #1c2237;
+}
+
+.lightBackground {
+    background-color: #eaeaea;
+}
+
+
+/* iPhone X */
+@media screen and (max-width: 960px) {
+
+    .col {
+        /*margin: 2rem 2rem 2rem 0rem;*/
+        display: flex;
+        flex-direction: column;
+        width: 70vw;
+    }
+
+    .content-section {
+        width: 100vw;
+        height: 93vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .side-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        margin-left: 0;
+        margin-top: 5rem;
+    }
+
+    .heading {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .info-text {
+        text-align: center;
+    }
+
+    .img {
+        max-width: 100%;
+        margin-left: -2.5rem;
+        flex-wrap: wrap;
+        border: 0;
+    }
+
+    .top-section {
+        height: 100vh;
+        margin-bottom: 0;
+    }
+}
+
+/* Moto 4G */
+@media screen and (max-width: 370px) {
+
+    .content-section {
+        height: 130vh;
+    }
+    .img {
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+}
+
+/* Small Screens (iPhone 5/SE) */
+@media screen and (max-width: 325px) {
+
+    .content-section {
+        height: 140vh;
+    }
+
+}
+
+/* iPhone X */
+@media screen and (max-width: 376px) {
+
+    .content-section {
+        height: 110vh;
+    }
+}
+
+/* iPhone 8 Plus */
+@media screen and (max-width: 415px) {
+
+    .content-section {
+        height: 105vh;
+    }
+
+}
+
+@media screen and (max-width: 1058px){
+
+    .img {
+        max-width: 100%;
+        margin-top: 3rem;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+
+    .img {
+        width: 40vw;
+    }
+}
