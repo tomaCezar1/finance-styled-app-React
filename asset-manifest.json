@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/finance-styled-app-React/static/css/main.4b5214e3.chunk.css",
-    "main.js": "/finance-styled-app-React/static/js/main.a6c2f474.chunk.js",
-    "main.js.map": "/finance-styled-app-React/static/js/main.a6c2f474.chunk.js.map",
+    "main.css": "/finance-styled-app-React/static/css/main.e56900d6.chunk.css",
+    "main.js": "/finance-styled-app-React/static/js/main.8825032e.chunk.js",
+    "main.js.map": "/finance-styled-app-React/static/js/main.8825032e.chunk.js.map",
     "runtime-main.js": "/finance-styled-app-React/static/js/runtime-main.0d3fb088.js",
     "runtime-main.js.map": "/finance-styled-app-React/static/js/runtime-main.0d3fb088.js.map",
     "static/js/2.ab7242b7.chunk.js": "/finance-styled-app-React/static/js/2.ab7242b7.chunk.js",
     "static/js/2.ab7242b7.chunk.js.map": "/finance-styled-app-React/static/js/2.ab7242b7.chunk.js.map",
     "index.html": "/finance-styled-app-React/index.html",
-    "static/css/main.4b5214e3.chunk.css.map": "/finance-styled-app-React/static/css/main.4b5214e3.chunk.css.map",
+    "static/css/main.e56900d6.chunk.css.map": "/finance-styled-app-React/static/css/main.e56900d6.chunk.css.map",
     "static/js/2.ab7242b7.chunk.js.LICENSE.txt": "/finance-styled-app-React/static/js/2.ab7242b7.chunk.js.LICENSE.txt",
     "static/media/svg-1.1dc3c5dd.svg": "/finance-styled-app-React/static/media/svg-1.1dc3c5dd.svg",
     "static/media/svg-4.b0ed628c.svg": "/finance-styled-app-React/static/media/svg-4.b0ed628c.svg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.0d3fb088.js",
     "static/js/2.ab7242b7.chunk.js",
-    "static/css/main.4b5214e3.chunk.css",
-    "static/js/main.a6c2f474.chunk.js"
+    "static/css/main.e56900d6.chunk.css",
+    "static/js/main.8825032e.chunk.js"
   ]
 }
